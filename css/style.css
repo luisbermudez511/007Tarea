@@ -33,7 +33,7 @@
         border-radius: 100%;
     }
     .inicio{
-        height: 95vh;  
+        height: 100vh;  
         margin: 4%;
         background-color: white;
         border-radius: 30px;
@@ -63,4 +63,5 @@
       a{
         text-decoration: none;
         color: white;
+
       }

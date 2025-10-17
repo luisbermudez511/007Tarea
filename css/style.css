@@ -1,0 +1,35 @@
+    .btn-color{
+        background-color: #ff2282; 
+        color: white;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .navbar-brand{
+        margin-right: 50%;
+    }
+    .logo{
+        height: 80px;
+        width: 80px;
+    }
+    .inicio{
+        height: 100vh;  
+        background-size: cover;
+        color: white;
+        margin: 4%;
+        }
+        .img{
+            border-radius: 30px;
+            width: 100%;
+            height: auto;
+        }
+        .boton-Gal{
+            background-color: #ff2282; 
+            color: white;
+            height: 80px;
+            width: 80px;
+            top: 50%;
+            transform: translateY(-50%);
+        }

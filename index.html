@@ -9,17 +9,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
       <link rel="stylesheet" href="css/style.css">
-  
+ 
 </head>
 <body>
-   
+    
 
       <header id="inicio" class="inicio">
         <nav class="navbar navbar-expand-lg ">
           <div class="container-fluid">
             <img src="img/logo.png" alt="que es" class="logo me-2">
             <a class="navbar-brand " href="#">Flora</a>
-  
+ 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -31,6 +31,9 @@
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="#catalogo">Catalogo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#promo">Promociones</a>
                 </li>
               </ul>
               <form class="d-flex" role="search">
@@ -54,6 +57,7 @@
               <div class="carousel-caption ">
                 <h1>¿Quienes somos?</h1>
                 <p>Somos una floreria que vuelve tus sueños realidad</p>
+                <button type="button" class="btn btn-light">Mas informacion...</button>
               </div>
             </div>
             <div class="carousel-item">
@@ -61,6 +65,7 @@
               <div class="carousel-caption d-none d-md-block">
                 <h1>¿Donde nos encuentras?</h1>
                 <p>En leon guanajuato, Villas de San Juan #317</p>
+                <button type="button" class="btn btn-light">Mas informacion...</button>
               </div>
             </div>
           </div>
@@ -75,107 +80,269 @@
         </div>
       </header>
 
-   
+    
 
-    <section class="inicio">
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
-          <img class="logo" src="img/logo.png" alt="que es" class="logo me-2">
-          <a class="navbar-brand " href="#">Flora</a>
+      <section class="inicio">
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+            <img class="logo" src="img/logo.png" alt="que es" class="logo me-2">
+            <a class="navbar-brand " href="#">Flora</a>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  mb-4 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#inicio">inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#catalogo">Catalogo</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="" aria-label=""/>
-              <button class="btn btn-color rounded-pill mx-2 " type="submit">
-                <i class="bi bi-search"></i>
-              </button>
-              <button class="btn btn-color rounded-pill mx-2" type="submit">
-                <i class="bi bi-cart-fill"></i>
-              </button>
-            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav  mb-4 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#inicio">inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#catalogo">Catalogo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#promo">Promociones</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="" aria-label=""/>
+                <button class="btn btn-color rounded-pill mx-2 " type="submit">
+                  <i class="bi bi-search"></i>
+                </button>
+                <button class="btn btn-color rounded-pill mx-2" type="submit">
+                  <i class="bi bi-cart-fill"></i>
+                </button>
+              </form>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
 
 
-      <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-              
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                  
                 <div class="container">
-                  <h2 class="text-center mb-4" id="catalogo">Catalogo</h2>
+                  <h2 class="text-center mb-4" id="catalogo">Catálogo de Ramos</h2>
                   <div class="row">
                     <div class="col-md text-center p-4">
                       <img class="catalogo rounded  d-block mb-4" src="img/flores_fondo.png" alt="">
-                      <h4 class="mb-4">Roya Steak</h4>
-                      <p class="mb-4">Corte especial,salsa de la </p>
-                      <h4>$340 MXN</h4>
+                      <h4 class="mb-4">Ramo de Girasoles Alegres</h4>
+                      <p class="mb-4">Ramo grande de 12 girasoles, perfecto para levantar el ánimo.</p>
+                      <h4>$480 MXN</h4>
                     </div>
-            
+              
                     <div class="col-md text-center  p-4 mx-3">
                       <img class=" catalogo rounded mx-auto d-block mb-4" src="img/flores_fondo2.png" alt="">
-                      <h4 class="mb-4">Ceviches Royale</h4>
-                      <p class="mb-4">Fresco con toque fresco</p>
-                      <h4>$ 250</h4>
+                      <h4 class="mb-4">Canasta de Lirios Blancos</h4>
+                      <p class="mb-4">Lirios blancos y follaje, ideal para condolencias o inauguración.</p>
+                      <h4>$550 MXN</h4>
+                      
                     </div>
-            
+              
                     <div class="col-md text-center  p-4 mx-3">
                       <img class=" catalogo rounded mx-auto d-block mb-4" src="img/flores_fondo3.png" alt="">
-                      <h4 class="mb-4">Corte Ternera</h4>
-                      <p class="mb-4">Sabor y sasón aen equilibrio</p>
-                      <h4>$ 275</h4>
+                      <h4 class="mb-4">Arreglo de Tulipanes Primavera</h4>
+                      <p class="mb-4">20 tulipanes de colores variados en jarrón de cristal.</p>
+                      <h4>$790 MXN</h4>
                     </div>
-            
+              
                     <div class="col-md text-center  p-4 mx-3">
                       <img class=" catalogo rounded mx-auto d-block mb-4" src="img/flores_fondoR.png" alt="">
-                      <h4 class="mb-4">Salmon Asado</h4>
-                      <p class="mb-4">Sabor unico e inigualable</p>
-                      <h4>$ 275</h4>
+                      <h4 class="mb-4">Bouquet de Rosas Clásicas</h4>
+                      <p class="mb-4">10 rosas rojas frescas envueltas en papel elegante.</p>
+                      <h4>$650 MXN</h4>
+
                     </div>
-            
+              
                   </div>
-            
+              
 
                 </div>
+
+            </div>
+            <div class="carousel-item">
+
+                 <div class="container">
+                  <h2 class="text-center mb-4" id="catalogo">Catálogo de Ramos</h2>
+                  <div class="row">
+                    <div class="col-md text-center p-4">
+                      <img class="catalogo rounded  d-block mb-4" src="img/flores_fondo4.png" alt="">
+                      <h4 class="mb-4">Rosa Eterna Encapsulada</h4>
+                      <p class="mb-4">Una rosa preservada en cúpula de cristal, dura años.</p>
+                      <h4>$380 MXN</h4>
+                    </div>
+              
+                    <div class="col-md text-center  p-4 mx-3">
+                      <img class=" catalogo rounded mx-auto d-block mb-4" src="img/flores_fondo5.png" alt="">
+                      <h4 class="mb-4">Caja de Rosas Mixtas</h4>
+                      <p class="mb-4">24 rosas en una caja de lujo, colores rojo y rosa.</p>
+                      <h4>$1200 MXN</h4>
+                    </div>
+              
+                    <div class="col-md text-center  p-4 mx-3">
+                      <img class=" catalogo rounded mx-auto d-block mb-4" src="img/flores_fondo6.png" alt="">
+                      <h4 class="mb-4">Orquídea Phalaenopsis Premium</h4>
+                      <p class="mb-4">Orquídea de doble tallo en maceta decorativa.</p>
+                      <h4>$950 MXN</h4>
+                    </div>
+              
+                    <div class="col-md text-center  p-4 mx-3">
+                      <img class=" catalogo rounded mx-auto d-block mb-4" src="img/flores_fondoR2.png" alt="">
+                      <h4 class="mb-4">Ramo Silvestre de Margaritas</h4>
+                      <p class="mb-4">Flores silvestres con margaritas y lavanda, toque rústico.</p>
+                      <h4>$320 MXN</h4>
+                    </div>
+              
+                  </div>
+              
+
+                </div>
+
+            </div>
+            <div class="carousel-item">
+              
+              <div class="container">
+                <h2 class="text-center mb-4" id="catalogo">Catálogo de Ramos</h2>
+                <div class="row">
+                  <div class="col-md text-center p-4">
+                    <img class="catalogo rounded  d-block mb-4" src="img/flores_fondo7.png" alt="">
+                    <h4 class="mb-4">Corazón de Rosas Azules</h4>
+                    <p class="mb-4">Arreglo en forma de corazón con 50 rosas, máxima expresión de amor.</p>
+                    <h4>$2500 MXN</h4>
+                  </div>
+              
+                  <div class="col-md text-center  p-4 mx-3">
+                    <img class=" catalogo rounded mx-auto d-block mb-4" src="img/flores_fondo8.png" alt="">
+                    <h4 class="mb-4">Bonsái de Interior</h4>
+                    <p class="mb-4">Planta pequeña y decorativa, requiere pocos cuidados.</p>
+                    <h4>$410 MXN</h4>
+                  </div>
+              
+                  <div class="col-md text-center  p-4 mx-3">
+                    <img class=" catalogo rounded mx-auto d-block mb-4" src="img/flores_fondo2.png" alt="">
+                    <h4 class="mb-4">Juego de Suculentas Mini</h4>
+                    <p class="mb-4">Tres pequeñas suculentas en macetas de diseño moderno.</p>
+                    <h4>$295 MXN</h4>
+                  </div>
+              
+                  <div class="col-md text-center  p-4 mx-3">
+                    <img class=" catalogo rounded mx-auto d-block mb-4" src="img/flores_fondo.png" alt="">
+                    <h4 class="mb-4">Ramo de Rosas Blancas Puras</h4>
+                    <p class="mb-4">Diez rosas blancas que simbolizan la pureza y la paz.</p>
+                    <h4>$600 MXN</h4>
+                  </div>
+              
+                </div>
+              
+
+              </div>
+
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-          </div>
+          <button class="carousel-control-prev rounded-pill boton-Gal" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next rounded-pill boton-Gal" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button class="carousel-control-prev rounded-pill boton-Gal" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next rounded-pill boton-Gal" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+        
+      </section>
+
+
       
-    </section>
+      <section class="inicio">
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+            <img class="logo" src="img/logo.png" alt="que es" class="logo me-2">
+            <a class="navbar-brand " href="#">Flora</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav  mb-4 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#inicio">inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#catalogo">Catalogo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#promo">Promociones</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="" aria-label=""/>
+                <button class="btn btn-color rounded-pill mx-2 " type="submit">
+                  <i class="bi bi-search"></i>
+                </button>
+                <button class="btn btn-color rounded-pill mx-2" type="submit">
+                  <i class="bi bi-cart-fill"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
 
 
-    <footer>
-      <h3>Derechos de autor flora premier © 2025</h3>
-    </footer>
+        <div class="container">
+          <h2 class="text-center mb-4" id="promo">Promociones de Ramos</h2>
+          <div class="row">
+            <div class="col-md text-center p-4">
+              <img class="catalogo rounded  d-block mb-4" src="img/flores_fondo.png" alt="">
+              <h4 class="mb-4">Ramo de Girasoles Alegres (20% OFF)</h4>
+              <p class="mb-4">Ramo grande de 12 girasoles, perfecto para levantar el ánimo.</p>
+              <h4>$384 MXN</h4> </div>
+      
+            <div class="col-md text-center  p-4 mx-3">
+              <img class=" catalogo rounded mx-auto d-block mb-4" src="img/flores_fondo2.png" alt="">
+              <h4 class="mb-4">Canasta de Lirios Blancos (Incluye Tarjeta)</h4>
+              <p class="mb-4">Lirios blancos y follaje, ideal para condolencias o inauguración.</p>
+              <h4>$550 MXN</h4>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
-  </script>
+            </div>
+      
+            <div class="col-md text-center  p-4 mx-3">
+              <img class=" catalogo rounded mx-auto d-block mb-4" src="img/flores_fondo3.png" alt="">
+              <h4 class="mb-4">Arreglo de Tulipanes Primavera (Mitad de Precio)</h4>
+              <p class="mb-4">20 tulipanes de colores variados en jarrón de cristal.</p>
+              <h4>$395 MXN</h4> </div>
+      
+            <div class="col-md text-center  p-4 mx-3">
+              <img class=" catalogo rounded mx-auto d-block mb-4" src="img/flores_fondoR.png" alt="">
+              <h4 class="mb-4">Bouquet de Rosas Clásicas (Envío Gratis)</h4>
+              <p class="mb-4">10 rosas rojas frescas envueltas en papel elegante.</p>
+              <h4>$650 MXN</h4>
+            </div>
+      
+          </div>
+      
+
+        </div>
+        
+      </section>
+
+
+      <footer>
+        <h3>Derechos de autor flora premier © 2025</h3>
+        <a class="fs-1 mx-3" href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a class="fs-1 mx-3" href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+        <a class="fs-1 mx-3" href="https://www.whatsapp.com" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        <a class="fs-1 mx-3" href="https://www.x.com" target="_blank"><i class="bi bi-twitter-x"></i></a>
+        <a class="fs-1 mx-3" href="https://www.messenger.com" target="_blank"><i class="bi bi-messenger"></i></a>
+
+
+        
+
+      </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
 </body>
 </html>

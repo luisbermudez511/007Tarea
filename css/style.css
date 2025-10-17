@@ -6,30 +6,47 @@
         margin: 0;
         padding: 0;
     }
-    
+    body{
+        background-color: rgb(241, 241, 241);
+    }
     .navbar-brand{
         margin-right: 50%;
+    }
+    .catalogo{
+        height: 200px;
+        width: 200px;
+        justify-content: flex-end;
+        margin-left: 30px;
     }
     .logo{
         height: 80px;
         width: 80px;
+        margin-left: 4%;
+        border-radius: 100%;
     }
     .inicio{
         height: 100vh;  
-        background-size: cover;
-        color: white;
         margin: 4%;
+        background-color: white;
+        border-radius: 30px;
         }
-        .img{
+     .img{
             border-radius: 30px;
             width: 100%;
             height: auto;
         }
-        .boton-Gal{
+      .boton-Gal{
             background-color: #ff2282; 
             color: white;
-            height: 80px;
-            width: 80px;
+            height: 60px;
+            width: 60px;
             top: 50%;
             transform: translateY(-50%);
         }
+
+      footer{
+        padding: 2%;
+        background-color: #ff2282;
+        height: 400px;
+        text-align: center;
+      }
